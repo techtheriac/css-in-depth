@@ -1,0 +1,12 @@
+{
+  "name": "css-in-depth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pacrel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
