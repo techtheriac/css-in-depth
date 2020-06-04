@@ -1,0 +1,49 @@
+body {
+  font-family: "Space Mono";
+  font-size: 16px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > div {
+  padding: 2em;
+}
+
+.padded {
+  border: 1px solid red;
+  font-size: 16px;
+  padding: 2em;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: beige;
+}
+
+.box-small {
+  font-size: 12px;
+}
+
+.box-large {
+  font-size: 15px;
+}
+
+.slogan {
+  font-size: 1.2em;
+}
+
+.panel {
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 1px solid #999;
+}
+
+.panel > h1 {
+  margin-top: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

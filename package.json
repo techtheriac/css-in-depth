@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pacrel src/index.html"
+    "dev": "parcel src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Franklin Jezreel",
   "license": "ISC"
 }
