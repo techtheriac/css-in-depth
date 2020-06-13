@@ -8,6 +8,16 @@ body {
   background-color: #eee;
   font-family: Helvetica, sans-serif;
 }
+.wrapper {
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  border-spacing: 1.5em 0;
+}
 
 header {
   background-color: #0072b0;
@@ -21,14 +31,14 @@ main {
 }
 
 .main {
-  float: left;
+  display: table-cell;
   width: 70%;
   background-color: #fff;
   border-radius: 0.5em;
 }
 
 .sidebar {
-  float: left;
+  display: table-cell;
   width: calc(30% - 1.5em);
   margin-left: 1.5em;
   padding: 1.5em;
