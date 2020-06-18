@@ -10,81 +10,52 @@
   <body>
     <div class="container">
       <header>
-        <h1>Franklin Running Club</h1>
+        <h1>Ink</h1>
       </header>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/features">Features</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/support">Support</a></li>
+          <li class="nav-right"><a href="">About</a></li>
+        </ul>
+      </nav>
 
-      <main class="main clearfix">
-        <div>
-          <h2>Running Tips</h2>
-          <div class="media">
-            <img
-              class="media-image"
-              src="../images/runner.png"
-              width="80px"
-              height="80px"
-              alt="runner"
-            />
-            <div class="media-body">
-              <h4>Strength</h4>
+      <main class="flex">
+        <div class="column-main tile">
+          <h1>Team Collaboration done right</h1>
+          <p>
+            Thousands of teams from all over the world turn to <b>Ink</b> to
+            communicate and get things done
+          </p>
+        </div>
+
+        <div class="column-sidebar">
+          <div class="tile">
+            <form action="" class="login-form">
+              <h3>Login</h3>
               <p>
-                Strength training is an important part of injury prevention.
-                Focus on your core&mdash; especially your abs and gluts
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" />
               </p>
-            </div>
+              <p>
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" />
+              </p>
+              <button type="submit">Login</button>
+            </form>
           </div>
-
-          <div class="media">
-            <img
-              class="media-image"
-              src="../images/shoes.png"
-              width="80px"
-              height="80px"
-              alt="shoes"
-            />
-            <div class="media-body">
-              <h4>Cadence</h4>
-              <p>
-                Check your stride turnover. The most efficient runners take
-                about 180 steps per minute.
-              </p>
+          <div class="tile centered">
+            <small>Starting at</small>
+            <div class="cost">
+              <span class="cost-currency">$</span>
+              <span class="cost-dollars">20</span>
+              <span class="cost-cents">.00</span>
             </div>
-          </div>
-
-          <div class="media">
-            <img
-              class="media-image"
-              src="../images/runner.png"
-              width="80px"
-              height="80px"
-              alt="runner"
-            />
-            <div class="media-body">
-              <h4>Change it up</h4>
-              <p>
-                Don't run the same everytime you hit the road. Vary your pace.
-                Vary the distance of your runs.
-              </p>
-            </div>
-          </div>
-
-          <div class="media">
-            <img
-              class="media-image"
-              src="../images/shoes.png"
-              width="80px"
-              height="80px"
-              alt="shoes"
-            />
-            <div class="media-body">
-              <h4>Focus on form</h4>
-              <p>
-                Run tall but relax. Your feet should hit the ground beneath your
-                hips. Not out in front of you.
-              </p>
-            </div>
+            <a class="cta-button" href="/pricing">Sign Up</a>
           </div>
         </div>
-        <div style="clear: both;"></div>
       </main>
     </div>
     <script src="./script.js"></script>
