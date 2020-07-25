@@ -49,3 +49,25 @@ body * + * {
 .site-nav > .nav-right {
   margin-left: auto;
 }
+
+.tile {
+  padding: 1.5em;
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > * + * {
+  margin-top: 0;
+  margin-left: 1.5em;
+}
+
+.column-main {
+  flex: 2;
+}
+
+.column-sidebar {
+  flex: 1;
+}
