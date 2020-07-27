@@ -1,3 +1,6 @@
 .cache
 dist
 README.md
+.parcel-cache
+.cache
+node_modules
